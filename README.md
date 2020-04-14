@@ -1,3 +1,17 @@
+#Provide state between components
+
+1. React context -> import a contex to consumer. UserContext.Provider - UserContext.Consumer.
+2. REdux -> Store.
+   Clean and elegant solution ,also if 2 components are not connected (base:child)
+   REDUX > One immutable store + Actions trigger + Reducers update state
+3. Flux (muttable state) vs Redux (Immutable state) -> each time create new state. (copy...)
+   In array avoid push , pop, reverse -> because muttable data.
+
+4. container vs presentational components
+
+- container->Focus how things works, Aware of redux, Subscribe to redux store, Dispatch redux actions
+- presentation -> forcus how thinks looks, Uware of redux, Read all data from props
+
 # Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
 
 ## Get Started
